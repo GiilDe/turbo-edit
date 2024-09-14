@@ -1,0 +1,6 @@
+torch==2.4.0
+ml-collections==0.1.1
+diffusers==0.27.2
+transformers==4.43.3
+accelerate==0.33.0
+json-with-comments==1.2.7

@@ -1,0 +1,8 @@
+max_norm_zs: [-1, -1, 15.5]
+noise_shift_delta: 1
+noise_timesteps: [599, 299, 0]
+timesteps: [799, 499, 199]
+num_steps_inversion: 5
+step_start: 1
+ws1: 1.5
+ws2: 1

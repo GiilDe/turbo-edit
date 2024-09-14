@@ -1,0 +1,20 @@
+{
+  "1.jpg": {
+    "src_prompt": "butterfly perched on purple flower",
+    "tgt_prompt": [
+      "butterfly perched on red flower"
+    ]
+  },
+  "2.jpeg": {
+    "src_prompt": "A female robot",
+    "tgt_prompt": [
+      "A female robot, it wears earrings"
+    ]
+  },
+  "3.png": {
+    "src_prompt": "kitten play with colorful yarn balls",
+    "tgt_prompt": [
+      "racoon play with colorful yarn balls"
+    ]
+  }
+}
