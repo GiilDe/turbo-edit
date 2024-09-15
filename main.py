@@ -18,7 +18,7 @@ from config import get_config
 import argparse
 
 
-VAE_SAMPLE = "sample"  # "argmax" or "sample"
+VAE_SAMPLE = "argmax"  # "argmax" or "sample"
 RESIZE_TYPE = None  # Image.LANCZOS
 
 
