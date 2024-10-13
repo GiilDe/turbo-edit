@@ -59,6 +59,13 @@ Alternatively, if you want to experiment using Gradio's UI, run -
 python app.py 
 ```
 
+## EF-DDS Equivalence
+To reproduce our results showing the equivalence between EF & DDS, run -
+```
+python dds_ef_eq.py --num_iters 64 --t_min 1 --t_max 632 --seed 2 --guidance_scale_source 3.5 --guidance_scale_target 15 --linear_timestep_annealing --lr_ef --prompts_file ../dataset/dataset.json
+```
+The ```dds_ef_eq.py``` file is based on the code from the [DDS repo](https://github.com/google/prompt-to-prompt/blob/main/DDS_zeroshot.ipynb), though note that is does not use ```loss.backward()``` and ```optimizer.step()``` as optimization is not required to implement the DDS algorithm.
+
 ## Citation
 
 If you make use of our work, please cite our paper:
