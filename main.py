@@ -168,6 +168,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=2)
     parser.add_argument("--w", type=float, default=1.5)
     parser.add_argument("--timesteps", type=int, default=4)  # 3 or 4
+    parser.add_argument("--output_dir", type=str, default="output")
 
     args = parser.parse_args()
 
@@ -193,5 +194,5 @@ if __name__ == "__main__":
             args.timesteps,
             pipeline=pipeline,
         )
-        os.makedirs("output", exist_ok=True)
-        res.save(f"output/output_{i}.png")
+        os.makedirs(args.output_dir, exist_ok=True)
+        res.save(f"{args.output_dir}/output_{i}.png")
