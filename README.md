@@ -54,7 +54,7 @@ You can experiment with ```--fp16 --timesteps=3``` for faster inference, and pos
 You can experiment with ```--w=GUIDANCE_VAL``` for stronger/weaker alignment with the target prompt (where ```--w=0``` means to not guide the input image at all, i.e. not change it).
 
 ### Gradio demo
-Alternatively, if you want to experiment using Gradio's UI, run -
+Alternatively, if you want to experiment using [Gradio](https://www.gradio.app/)'s UI, run -
 ```
 python app.py 
 ```
