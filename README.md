@@ -1,4 +1,5 @@
 # TurboEdit: Text-Based Image Editing Using Few-Step Diffusion Models
+### SIGGRAPH Asia 2024
 
 [![arXiv](https://img.shields.io/badge/arXiv-2408.00735-b31b1b.svg)](https://arxiv.org/abs/2408.00735)
 
