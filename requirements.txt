@@ -6,3 +6,4 @@ accelerate==0.33.0
 json-with-comments==1.2.7
 gradio==4.44.0
 spaces==0.30.2
+huggingface_hub==0.25.0
